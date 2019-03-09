@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6{
 	padding: 0 !important;
 }
 
-#header.header-wrapper {
+#header.header-wrapper{
 	background: url(../images/blue_mac2.jpg) no-repeat center center;
 	background-size: cover;
 	display: table;
@@ -264,7 +264,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #services {
-	background-image: url(../images/dream.jpeg);
+	background-image: url(../myImg/dream.jpeg);
 	color: white;
 }
 #parallax {
@@ -429,6 +429,12 @@ h1, h2, h3, h4, h5, h6{
 /*////////////////////////////////////////////////////////////////////////
 //  11 - Responsive styles
 ///////////////////////////////////////////////////////////////////////*/
+@media (max-width: 991px){
+  .row{
+    display: flex;
+    justify-content: center;
+  }
+}
 
 
 @media (max-width: 767px){
@@ -486,3 +492,17 @@ h1, h2, h3, h4, h5, h6{
 		background-size: cover;
 	}
 }
+
+/*入力確認フォーム*/
+.check-form{
+  height: 83vh;
+  width: 100%;
+  color: #fff;
+  margin-top: 69px;
+  background-image: url(../images/blue_mac2.jpg);
+}
+
+.check-form h1{
+  color: #fff;
+}
+

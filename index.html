@@ -36,13 +36,13 @@
 						<a href="#wrapper"><i class="fa fa-home"></i> Home</a>
 					</li>
 					<li>
-						<a href="#portfolio"><i class="fa fa-bookmark"></i> Hobby</a>
+						<a href="#portfolio"><i class="far fa-heart"></i> Hobby</a>
 					</li>
 					<li>
-						<a href="#services"><i class="fa fa-tasks"></i> Dream</a>
+						<a href="#services"><i class="fab fa-grav"></i> Dream</a>
 					</li>
 					<li>
-						<a href="#blog"><i class="fa fa-wordpress"></i> Skill</a>
+						<a href="#blog"><i class="fas fa-laptop"></i> Skill</a>
 					</li>
 <!-- 					<li>
 						<a href="#parallax"><i class="fa fa-heart"></i> Parallax</a>
@@ -72,7 +72,7 @@
 				<div class="header-wrapper-inner">
 					<section class="top clearfix">
 						<div class="pull-left">
-							<h1><a class="logo" href="index.html">Yakeyu</a></h1>
+							<h1><a class="logo" href="index.php">Yakeyu</a></h1>
 						</div>
 						<div class="pull-right">
 							<a class="toggleDrawer" href="#"><i class="fa fa-bars fa-2x"></i></a>
@@ -105,17 +105,17 @@
 					<section class="block-body">
 						<div class="row">
 							<div class="col-sm-4">
-								<a href="#" class="recent-work" style="background-image:url(assets/images/yoga.jpg)">
+								<a href="#" class="recent-work" style="background-image:url(assets/myImg/yoga.jpg)">
 									<span class="btn btn-o-white">Yoga</span>
 								</a>
 							</div>
 							<div class="col-sm-4">
-								<a href="#" class="recent-work" style="background-image:url(assets/images/karaoke.jpg)">
+								<a href="#" class="recent-work" style="background-image:url(assets/myImg/karaoke.jpg)">
 									<span class="btn btn-o-white">Karaoke</span>
 								</a>
 							</div>
 							<div class="col-sm-4">
-								<a href="#" class="recent-work" style="background-image:url(assets/images/draque.gif)">
+								<a href="#" class="recent-work" style="background-image:url(assets/myImg/draque.gif)">
 									<span class="btn btn-o-white">Game</span>
 								</a>
 							</div>
@@ -186,21 +186,21 @@
 					<section class="block-body">
 						<div class="row">
 							<div class="col-sm-4 blog-post">
-								<img src="assets/images/six-pack.jpeg">
+								<img src="assets/myImg/six-pack.jpeg">
 								<a href="#"><h2>Muscle training</h2></a>
 								<div class="date">Oct, 2017</div>
 								<p>I have training about 2 years.</p>
 								<a href="">Read More</a>
 							</div>
 							<div class="col-sm-4 blog-post">
-								<img src="assets/images/marathon.jpeg">
+								<img src="assets/myImg/marathon.jpeg">
 								<a href="#"><h2>Marathon</h2></a>
 								<div class="date">Feb, 2018</div>
 								<p>I participated in the "Okinawa marathon contest", and I could finished.</p>
 								<a href="">Read More</a>
 							</div>
 							<div class="col-sm-4 blog-post">
-								<img src="assets/images/store.jpg">
+								<img src="assets/myImg/store.jpg">
 								<a href="#"><h2>Store Manager</h2></a>
 								<div class="date">Oct, 2018 from 2008</div>
 								<p>I was working at the supermarket company.</p>
@@ -268,15 +268,15 @@
 					<section class="block-body">
 						<div class="row">
 							<div class="col-md-6 col-md-offset-3">
-								<form class="" role="form">
+								<form action="check.php" method="post" class="" role="form">
 									<div class="form-group">
-								    	<input type="email" class="form-control form-control-white" id="subject" placeholder="Your Name" required>
+								    	<input type="text" class="form-control form-control-white" id="subject" placeholder="Your Name" name="nickname" required>
 								  	</div>
 								    <div class="form-group">
-								    	<input type="email" class="form-control form-control-white" id="exampleInputEmail2" placeholder="Enter email" required>
+								    	<input type="email" class="form-control form-control-white" id="exampleInputEmail2" placeholder="Enter email" name="email" required>
 								    </div>
 								    <div class="form-group">
-								    	<textarea class="form-control form-control-white" placeholder="Write Something" required></textarea>
+								    	<textarea class="form-control form-control-white" placeholder="Write Something" name="content" required></textarea>
 								    </div>
 								  <input type="submit" class="btn btn-o-white" value="Say Hello">
 								</form>
@@ -294,6 +294,7 @@
 					</div>
 				</div>
 			</div><!-- #footer -->
+
 		</div><!--/#wrapper-->
 
 		<script src="assets/js/jquery-2.1.3.min.js"></script>
