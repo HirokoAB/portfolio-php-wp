@@ -202,9 +202,9 @@ function onYouTubePlayerAPIReady() {
 
 			stopAt                 : 0,
 
-			autoPlay               : false,
+			autoPlay               : true,
 
-			vol                    : 100, // 1 to 100
+			vol                    : 1, // 1 to 100
 
 			addRaster              : false,
 
