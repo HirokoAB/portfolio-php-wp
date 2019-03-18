@@ -83,7 +83,7 @@
 	function setHeaderBackground() {		
 		var scrollTop = jQuery(window).scrollTop(); // our current vertical position from the top	
 		
-		if (scrollTop > 300 || jQuery(window).width() < 700) { 
+		if (scrollTop > 100 || jQuery(window).width() < 700) { 
 			jQuery('#header .top').addClass('solid');
 		} else {
 			jQuery('#header .top').removeClass('solid');		
@@ -115,7 +115,7 @@
 	//Set Down Arrow Button
 	jQuery('#scrollToContent').click(function(e){
 		e.preventDefault();
-		jQuery.scrollTo("#portfolio", 1000, { offset:-(jQuery('#header .top').height()), axis:'y' });
+		jQuery.scrollTo("#hobbies", 1000, { offset:-(jQuery('#header .top').height()), axis:'y' });
 	});
 
 	jQuery('nav > ul > li > a').click(function(e){
