@@ -212,7 +212,7 @@ function onYouTubePlayerAPIReady() {
 
 			quality                : "default", //or “small”, “medium”, “large”, “hd720”, “hd1080”, “highres”
 
-			mute                   : false,
+			mute                   : true,
 
 			loop                   : true,
 
