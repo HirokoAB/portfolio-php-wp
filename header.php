@@ -36,7 +36,7 @@
             <a href="#wrapper"><i class="fa fa-home"></i> Home</a>
           </li>
           <li>
-            <a href="#habbies"><i class="far fa-heart"></i> Hobby</a>
+            <a href="#hobbies" class="anchor"><i class="far fa-heart"></i> Hobby</a>
           </li>
           <li>
             <a href="#dreams"><i class="fab fa-grav"></i> Dream</a>
@@ -44,24 +44,9 @@
           <li>
             <a href="#blog"><i class="fab fa-wordpress"></i> Blog</a>
           </li>
-         <li>
+          <li>
             <a href="#skills"><i class="fas fa-laptop"></i> Skill</a>
-<!--           </li>
-          <li>
-            <a href="#testimonials"><i class="fa fa-thumbs-up"></i> Testimonials</a>
-          </li>
-          <li>
-            <a href="#contact"><i class="fa fa-phone-square"></i> Contact</a> -->
           </li>
         </ul>
       </nav>
-<!--      <div class="social">
-        <h2>Stay Connected</h2>
-        <ul>
-          <li><a href=""><i class="fa fa-facebook-square fa-3x"></i></a></li>
-          <li><a href=""><i class="fa fa-twitter-square fa-3x"></i></a></li>
-          <li><a href=""><i class="fa fa-tumblr-square fa-3x"></i></a></li>
-          <li><a href=""><i class="fa fa-google-plus-square fa-3x"></i></a></li>
-        </ul>
-      </div> -->
     </div><!-- #drawer-right -->
