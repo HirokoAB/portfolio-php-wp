@@ -21,9 +21,7 @@
 						</div>
 					</section>
 					<section class="bottom">
-						<a id="scrollToContent" href="#">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/arrow_down.png">
-						</a>
+
 					</section>
 				</div>
 			</div><!-- header -->
@@ -49,7 +47,7 @@
 								</a>
 							</div>
 							<div class="col-sm-4">
-								<a href="#" class="hobby" style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/myImg/draque.gif)">
+								<a href="#" class="hobby" style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/myImg/draque.jpg)">
 									<span class="btn btn-o-white">Game</span>
 								</a>
 							</div>
@@ -148,13 +146,13 @@
 				<div class="container">
 					<header class="block-heading cleafix">
 						<h1>My skills</h1>
-						<p>Keep up with the latest skillss.</p>
+						<p>Keep up with the latest skills.</p>
 					</header>
 					<section class="block-body">
 						<div class="row">
 							<div class="col-md-4">
 								<div class="skill">
-									<img src="<?php echo get_template_directory_uri(); ?>/assets/myImg/six-pack.jpeg"><br>
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/myImg/six-pack.jpg"><br>
 									<strong>Muscle training</strong><br/>
 									<span>Oct, 2017</span>
 									<p>I have training about 2 years.</p>
@@ -162,7 +160,7 @@
 							</div>
 							<div class="col-md-4">
 								<div class="skill">
-									<img src="<?php echo get_template_directory_uri(); ?>/assets/myImg/marathon.jpeg"><br>
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/myImg/marathon.jpg"><br>
 									<strong>Marathon</strong><br/>
 									<span>Feb, 2018</span>
 									<p>I participated in the "Okinawa marathon contest", and I could finished.</p>
@@ -191,7 +189,7 @@
 					<section class="block-body">
 						<div class="row">
 							<div class="col-md-6 col-md-offset-3">
-								<form action="check.php" method="post" class="" role="form">
+								<form action="<?php echo get_template_directory_uri(); ?>/check.php" method="post" class="" role="form">
 									<div class="form-group">
 								    	<input type="text" class="form-control form-control-white" id="subject" placeholder="Your Name" name="nickname" required>
 								  	</div>
@@ -201,7 +199,7 @@
 								    <div class="form-group">
 								    	<textarea class="form-control form-control-white" placeholder="Write Something" name="content" required></textarea>
 								    </div>
-								  <input type="submit" class="btn btn-o-white" value="Say Hello">
+								  <input type="submit" class="btn btn-o-white" value="send">
 								</form>
 							</div>
 						</div>

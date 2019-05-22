@@ -27,11 +27,6 @@
 })(jQuery,'smartresize');
 
 
-
-
-
-
-
 (function(){
 
 	$wrapper = $('#wrapper');
