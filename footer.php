@@ -20,7 +20,7 @@
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.backstretch.min.js"></script>
 
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.mb.YTPlayer.js" type="text/javascript"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/video.js" type="text/javascript""></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/video.js" type="text/javascript"></script>
   </body>
 </html>
 
